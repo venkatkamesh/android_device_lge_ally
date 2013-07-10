@@ -90,3 +90,6 @@ BOARD_UMS_LUNFILE := /sys/devices/platform/msm_hsusb/gadget/lun0/file
 
 #TARGET_PROXIMITY_SENSOR_LIMIT see geeksphone
 #BOARD_USES_FROYO_AUDIOPOLICY-see /malata/smb_a1011
+#twrp
+#DEVICE_RESOLUTION:= 480x800
+#RECOVERY_GRAPHICS_USE_LINELENGTH := true

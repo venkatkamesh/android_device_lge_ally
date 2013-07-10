@@ -17,7 +17,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     librs_jni \
-	libmm-omxcore \
+    libmm-omxcore \
     libOmxCore \
     brcm_patchram_plus \
     gps.ally \
@@ -188,6 +188,41 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ally/proprietary/lib/libbcmwl.so:system/lib/libbcmwl.so \
     vendor/lge/ally/proprietary/lib/libdss.so:system/lib/libdss.so \
     vendor/lge/ally/proprietary/bin/rild:system/bin/rild 
+
+PRODUCT_PACKAGES += \
+    AccountAndSyncSettings \
+    Camera \
+    Stk \
+    Browser \
+    Calculator \
+    Contacts \
+    DeskClock \
+    FM \
+    Gallery3D \
+    Mms \
+    Music \
+    PackageInstaller \
+    Phone \
+    Protips \
+    Torch \
+    SystemUI \
+    Settings \
+    SettingsProvider \
+    Bluetooth \
+    CalenderProvider \
+    CertInstaller \
+    ContactsProvider \
+    DownloadProvider \
+    TelephonyProvider \
+    TtsService \
+     
+# Live wallpaper packages
+PRODUCT_PACKAGES += \
+    LiveWallpapers \
+    LiveWallpapersPicker \
+    MagicSmokeWallpapers \
+    VisualizationWallpapers \
+    librs_jni
 
 #propietary libril
 #PRODUCT_COPY_FILES += \

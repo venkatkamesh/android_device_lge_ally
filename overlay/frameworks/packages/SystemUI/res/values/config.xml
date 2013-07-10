@@ -20,17 +20,7 @@
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds. -->
 <resources>
-	<!-- set this to true if the device doesn't have a GPU, or an EGL
-	     library is for some reason unavailable -->
-	<bool name="softwareGLOnly">false</bool>
-	<!-- FFC parameter filtering -->
-	<bool name="ffc_canFocus">true</bool>
-	<bool name="ffc_canZoom">false</bool>
-
-   <bool name="focusCamcorderAtStart">true</bool>
-   <string-array name="pref_camera_flashmode_entryvalues" translatable="false">
-        <item>auto</item>
-        <item>torch</item>
-        <item>off</item>
-    </string-array>
+    <!-- Control whether status bar should distinguish HSPA data icon form UMTS data icon on devices -->
+    <bool name="config_hspa_data_distinguishable">true</bool>
 </resources>
+
